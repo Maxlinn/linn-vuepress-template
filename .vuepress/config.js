@@ -15,12 +15,17 @@ module.exports = {
             }
         ],
         sidebar: 'auto',
+        smoothScroll: true,
+        footer: 'this is footer',
 
-        // if you are using github... 
+        /// if you are using github... 
         // Last updated prefix in the bottom of page
         lastUpdated: 'Last Updated',
         repo: 'Maxlinn/linn-vuepress-template',
         repoLabel: 'Github',
+
+        // Default branch of github has become main
+        docsBranch: 'main',
         editLinks: true,
         editLinkText: 'Suggest This Page'
     }
