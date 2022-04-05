@@ -6,6 +6,12 @@
     },
     "devDependencies": {
         "vuepress": "^1.3.0",
-        "@maginapp/vuepress-plugin-katex": "latest"
+        "@maginapp/vuepress-plugin-katex": "latest",
+        "vuepress-bar": "latest",
+        "vuepress-plugin-mermaidjs": "latest"
+    },
+    "dependencies": {
+        "glob": "^7.2.0",
+        "vuepress-bar": "^0.4.4"
     }
 }

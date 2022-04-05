@@ -22,6 +22,7 @@ Quickly setup a simple site to store markdown notes, and share them via static w
 
 - [ ] Auto generate sidebar by directory.
 - [x] Math support.
+- [ ] Mermaid support.
 - [ ] Add dark mode.
 - [ ] Add back to top.
 - [ ] Add `.gitignore`
@@ -43,6 +44,9 @@ $$
 :star:
 
 ```mermaid
-graph LR;
-a-->b
+sequenceDiagram
+Alice->John: Hello John, how are you?
+loop every minute
+    John-->Alice: Great!
+end
 ```
