@@ -7,6 +7,12 @@ module.exports = {
     title: "This is site title",
     description: "This is invisible HTML description",
 
+    // add math support
+    plugins: {
+        '@maginapp/vuepress-plugin-katex': {
+            delimiters: 'dollars'
+        }
+    },
     themeConfig: {
         nav: [
             {
@@ -16,16 +22,12 @@ module.exports = {
         ],
         sidebar: 'auto',
         smoothScroll: true,
-        footer: 'this is footer',
 
         /// if you are using github... 
-        // Last updated prefix in the bottom of page
-        lastUpdated: 'Last Updated',
+        lastUpdated: 'Last Updated', // Last updated prefix in the bottom of page
         repo: 'Maxlinn/linn-vuepress-template',
         repoLabel: 'Github',
-
-        // Default branch of github has become main
-        docsBranch: 'main',
+        docsBranch: 'main', // Default branch of github has become main
         editLinks: true,
         editLinkText: 'Suggest This Page'
     }

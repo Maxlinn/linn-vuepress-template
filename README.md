@@ -18,14 +18,31 @@ Quickly setup a simple site to store markdown notes, and share them via static w
   - Every time your push, the static site will be auto generated and deployed, may take time to effect due to github.
   - Remember, this `README.md` will appear as `index.html` afterwards, so don't hesitate to replace it with your own!
 
-
-
-
 ## Todo
 
 - [ ] Auto generate sidebar by directory.
+- [x] Math support.
 - [ ] Add dark mode.
 - [ ] Add back to top.
 - [ ] Add `.gitignore`
 - [ ] Add instructions to install vuepress.
 - [ ] Add full-text searching.
+
+## Markdown Syntax Test
+
+~~deleted~~
+
+==hightlight==
+
+$a^2+b^2=c^2$
+
+$$
+a^2+b^2=c^2
+$$
+
+:star:
+
+```mermaid
+graph LR;
+a-->b
+```
