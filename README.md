@@ -30,6 +30,7 @@ Quickly setup a simple site to store markdown notes, and share them via static w
 - [x] Add `.gitignore`
 - [ ] Add instructions to install vuepress.
 - [ ] Add full-text searching.
+- [ ] Add permanent link for pinyin.
 
 ## Markdown Syntax Test
 
